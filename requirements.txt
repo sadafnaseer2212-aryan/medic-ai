@@ -1,0 +1,23 @@
+# MediGuide AI — Python 3.10+
+# Install:  pip install -r requirements.txt
+# Run:      streamlit run app.py
+
+# User interface
+streamlit>=1.66,<2.0
+plotly>=5.20
+pandas>=2.2
+
+# LangChain + OpenAI
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+langchain-community>=0.4
+langchain-classic>=1.0        # LLMChain lives here in LangChain 1.x
+openai>=1.50
+
+# Secrets (.env)
+python-dotenv>=1.0
+
+# PDF report (with Urdu / Arabic / Hindi text shaping)
+fpdf2>=2.8.3
+uharfbuzz>=0.40
